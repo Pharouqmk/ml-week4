@@ -1,0 +1,632 @@
+{
+  "iv_mean": 1.22,
+  "iv_median": 0.0,
+  "iv_same_day_pct": 79.4,
+  "iv_gt30": 435,
+  "iv_max": 275,
+  "timely_pct": 96.06,
+  "timely_n_yes": 58619,
+  "timely_n_no": 2403,
+  "in_progress": 1494,
+  "total": 62516,
+  "product_share": {
+    "Checking or savings": 39.69,
+    "Credit / prepaid card": 25.91,
+    "Credit reporting": 12.33,
+    "Mortgage": 10.56,
+    "Money transfer / virtual currency": 5.52,
+    "Debt collection": 4.38,
+    "Vehicle loan or lease": 1.01,
+    "Payday / title / personal loan": 0.53,
+    "Student loan": 0.06
+  },
+  "response_share": {
+    "Closed with explanation": 65.65,
+    "Closed with monetary relief": 23.51,
+    "Closed with non-monetary relief": 8.43,
+    "In progress": 2.39,
+    "Closed": 0.01
+  },
+  "n_months": 75,
+  "series_start": "2017-05",
+  "series_end": "2023-07",
+  "by_year": {
+    "2017": 5394,
+    "2018": 7872,
+    "2019": 7075,
+    "2020": 8942,
+    "2021": 11149,
+    "2022": 12953,
+    "2023": 9131
+  },
+  "seasonal_strength": 0.16,
+  "trend_strength": 0.78,
+  "jul23": {
+    "total": 1749,
+    "peak_day": "2023-07-12",
+    "peak": 183,
+    "typical_weekday": 41.9
+  },
+  "tuning": [
+    {
+      "model": "Ridge",
+      "setting": "alpha=0.1",
+      "val_WAPE_h1-3": 0.076
+    },
+    {
+      "model": "Ridge",
+      "setting": "alpha=1",
+      "val_WAPE_h1-3": 0.0768
+    },
+    {
+      "model": "Ridge",
+      "setting": "alpha=3",
+      "val_WAPE_h1-3": 0.0777
+    },
+    {
+      "model": "Ridge",
+      "setting": "alpha=10",
+      "val_WAPE_h1-3": 0.0823
+    },
+    {
+      "model": "Ridge",
+      "setting": "alpha=30",
+      "val_WAPE_h1-3": 0.0982
+    },
+    {
+      "model": "Ridge",
+      "setting": "alpha=100",
+      "val_WAPE_h1-3": 0.138
+    },
+    {
+      "model": "Gradient boosting",
+      "setting": "depth=1, trees=100",
+      "val_WAPE_h1-3": 0.1104
+    },
+    {
+      "model": "Gradient boosting",
+      "setting": "depth=2, trees=150",
+      "val_WAPE_h1-3": 0.0973
+    },
+    {
+      "model": "Gradient boosting",
+      "setting": "depth=3, trees=150",
+      "val_WAPE_h1-3": 0.1003
+    }
+  ],
+  "best_ridge": "alpha=0.1",
+  "best_gbm": "depth=2, trees=150",
+  "val_table": [
+    {
+      "model": "Ridge regression",
+      "MAE": 82.046,
+      "RMSE": 111.595,
+      "WAPE_%": 7.6
+    },
+    {
+      "model": "Ensemble (ETS+Ridge+GBM)",
+      "MAE": 90.677,
+      "RMSE": 109.627,
+      "WAPE_%": 8.4
+    },
+    {
+      "model": "6-month median",
+      "MAE": 102.48,
+      "RMSE": 117.48,
+      "WAPE_%": 9.5
+    },
+    {
+      "model": "Gradient boosting",
+      "MAE": 105.075,
+      "RMSE": 133.836,
+      "WAPE_%": 9.7
+    },
+    {
+      "model": "Naive",
+      "MAE": 106.01,
+      "RMSE": 129.986,
+      "WAPE_%": 9.8
+    },
+    {
+      "model": "ARIMA",
+      "MAE": 106.01,
+      "RMSE": 129.986,
+      "WAPE_%": 9.8
+    },
+    {
+      "model": "Exp. smoothing (damped)",
+      "MAE": 106.514,
+      "RMSE": 125.88,
+      "WAPE_%": 9.9
+    },
+    {
+      "model": "3-month average",
+      "MAE": 114.478,
+      "RMSE": 129.437,
+      "WAPE_%": 10.6
+    },
+    {
+      "model": "Seasonal naive",
+      "MAE": 155.594,
+      "RMSE": 200.08,
+      "WAPE_%": 14.4
+    }
+  ],
+  "best_model": "Ridge regression",
+  "best_baseline": "Naive",
+  "test_table_all": [
+    {
+      "model": "Gradient boosting",
+      "MAE": 141.442,
+      "RMSE": 270.013,
+      "WAPE_%": 11.8
+    },
+    {
+      "model": "6-month median",
+      "MAE": 145.373,
+      "RMSE": 252.915,
+      "WAPE_%": 12.1
+    },
+    {
+      "model": "3-month average",
+      "MAE": 151.057,
+      "RMSE": 267.679,
+      "WAPE_%": 12.6
+    },
+    {
+      "model": "Ensemble (ETS+Ridge+GBM)",
+      "MAE": 156.86,
+      "RMSE": 266.381,
+      "WAPE_%": 13.0
+    },
+    {
+      "model": "ARIMA",
+      "MAE": 157.024,
+      "RMSE": 285.109,
+      "WAPE_%": 13.1
+    },
+    {
+      "model": "Exp. smoothing (damped)",
+      "MAE": 157.896,
+      "RMSE": 280.356,
+      "WAPE_%": 13.1
+    },
+    {
+      "model": "Naive",
+      "MAE": 157.024,
+      "RMSE": 285.109,
+      "WAPE_%": 13.1
+    },
+    {
+      "model": "Ridge regression",
+      "MAE": 175.124,
+      "RMSE": 259.681,
+      "WAPE_%": 14.6
+    },
+    {
+      "model": "Seasonal naive",
+      "MAE": 186.642,
+      "RMSE": 284.159,
+      "WAPE_%": 15.5
+    }
+  ],
+  "test_table_ex": [
+    {
+      "model": "Gradient boosting",
+      "MAE": 48.577,
+      "RMSE": 60.144,
+      "WAPE_%": 4.4
+    },
+    {
+      "model": "ARIMA",
+      "MAE": 62.432,
+      "RMSE": 82.53,
+      "WAPE_%": 5.6
+    },
+    {
+      "model": "Naive",
+      "MAE": 62.432,
+      "RMSE": 82.53,
+      "WAPE_%": 5.6
+    },
+    {
+      "model": "3-month average",
+      "MAE": 63.93,
+      "RMSE": 88.297,
+      "WAPE_%": 5.8
+    },
+    {
+      "model": "6-month median",
+      "MAE": 64.187,
+      "RMSE": 89.102,
+      "WAPE_%": 5.8
+    },
+    {
+      "model": "Exp. smoothing (damped)",
+      "MAE": 66.439,
+      "RMSE": 88.795,
+      "WAPE_%": 6.0
+    },
+    {
+      "model": "Ensemble (ETS+Ridge+GBM)",
+      "MAE": 72.925,
+      "RMSE": 96.932,
+      "WAPE_%": 6.6
+    },
+    {
+      "model": "Seasonal naive",
+      "MAE": 100.249,
+      "RMSE": 106.613,
+      "WAPE_%": 9.0
+    },
+    {
+      "model": "Ridge regression",
+      "MAE": 108.289,
+      "RMSE": 144.974,
+      "WAPE_%": 9.7
+    }
+  ],
+  "arima_orders": {
+    "(0, 1, 0)": 19
+  },
+  "stability": [
+    {
+      "model": "Naive",
+      "2022 Jan\u2013Jun": 10.5,
+      "2022 Jul\u2013Dec": 9.2,
+      "2023 Jan\u2013Jul": 13.1
+    },
+    {
+      "model": "6-month median",
+      "2022 Jan\u2013Jun": 12.3,
+      "2022 Jul\u2013Dec": 7.1,
+      "2023 Jan\u2013Jul": 12.1
+    },
+    {
+      "model": "Ridge regression",
+      "2022 Jan\u2013Jun": 10.6,
+      "2022 Jul\u2013Dec": 5.0,
+      "2023 Jan\u2013Jul": 14.6
+    },
+    {
+      "model": "Gradient boosting",
+      "2022 Jan\u2013Jun": 7.3,
+      "2022 Jul\u2013Dec": 11.8,
+      "2023 Jan\u2013Jul": 11.8
+    },
+    {
+      "model": "Ensemble (ETS+Ridge+GBM)",
+      "2022 Jan\u2013Jun": 9.4,
+      "2022 Jul\u2013Dec": 7.5,
+      "2023 Jan\u2013Jul": 13.0
+    }
+  ],
+  "worst_months": [
+    {
+      "target": "2023-07",
+      "actual": 1749.0,
+      "forecast": 1050.7,
+      "abs_pct_err": 39.9
+    },
+    {
+      "target": "2022-05",
+      "actual": 933.0,
+      "forecast": 1169.2,
+      "abs_pct_err": 25.3
+    },
+    {
+      "target": "2023-05",
+      "actual": 1085.0,
+      "forecast": 1285.4,
+      "abs_pct_err": 18.5
+    },
+    {
+      "target": "2022-01",
+      "actual": 994.0,
+      "forecast": 834.8,
+      "abs_pct_err": 16.0
+    }
+  ],
+  "bias_h1": -17.5,
+  "err_autocorr": -0.06,
+  "aug_check": [
+    {
+      "model": "Ridge regression",
+      "forecast_full_month": 1843.1,
+      "scaled_to_covered_weekdays": 1602.7,
+      "actual_(28_days)": 717,
+      "error_%": 123.5
+    },
+    {
+      "model": "Naive",
+      "forecast_full_month": 1915.6,
+      "scaled_to_covered_weekdays": 1665.7,
+      "actual_(28_days)": 717,
+      "error_%": 132.3
+    },
+    {
+      "model": "6-month median",
+      "forecast_full_month": 1222.8,
+      "scaled_to_covered_weekdays": 1063.3,
+      "actual_(28_days)": 717,
+      "error_%": 48.3
+    },
+    {
+      "model": "Gradient boosting",
+      "forecast_full_month": 1916.9,
+      "scaled_to_covered_weekdays": 1666.9,
+      "actual_(28_days)": 717,
+      "error_%": 132.5
+    }
+  ],
+  "significance": [
+    {
+      "model": "Ensemble (ETS+Ridge+GBM)",
+      "mean_abs_error_saved_vs_naive": 9.7,
+      "months_better_%": 56.0,
+      "wilcoxon_p": 0.147
+    },
+    {
+      "model": "Ridge regression",
+      "mean_abs_error_saved_vs_naive": 8.5,
+      "months_better_%": 56.0,
+      "wilcoxon_p": 0.522
+    },
+    {
+      "model": "6-month median",
+      "mean_abs_error_saved_vs_naive": 6.5,
+      "months_better_%": 56.0,
+      "wilcoxon_p": 0.369
+    },
+    {
+      "model": "Gradient boosting",
+      "mean_abs_error_saved_vs_naive": 6.3,
+      "months_better_%": 60.0,
+      "wilcoxon_p": 0.268
+    },
+    {
+      "model": "ARIMA",
+      "mean_abs_error_saved_vs_naive": 0.0,
+      "months_better_%": 37.0,
+      "wilcoxon_p": 0.733
+    },
+    {
+      "model": "Exp. smoothing (damped)",
+      "mean_abs_error_saved_vs_naive": -0.6,
+      "months_better_%": 40.0,
+      "wilcoxon_p": 0.528
+    },
+    {
+      "model": "3-month average",
+      "mean_abs_error_saved_vs_naive": -3.2,
+      "months_better_%": 51.0,
+      "wilcoxon_p": 0.908
+    },
+    {
+      "model": "Seasonal naive",
+      "mean_abs_error_saved_vs_naive": -42.2,
+      "months_better_%": 42.0,
+      "wilcoxon_p": 0.022
+    }
+  ],
+  "sensitivity": [
+    {
+      "model": "Naive",
+      "Base case": 11.1,
+      "Without May 2017": 11.1,
+      "Without Jul 2023 target": 8.4
+    },
+    {
+      "model": "Ridge regression",
+      "Base case": 10.3,
+      "Without May 2017": 10.0,
+      "Without Jul 2023 target": 8.3
+    }
+  ],
+  "naive_raw_wape": 11.8,
+  "eligible_products": [
+    "Checking or savings",
+    "Credit / prepaid card",
+    "Credit reporting",
+    "Mortgage",
+    "Money transfer / virtual currency",
+    "Debt collection"
+  ],
+  "product_wape": [
+    {
+      "product": "Checking or savings",
+      "Exp. smoothing (damped)": 13.3,
+      "Gradient boosting": 13.9,
+      "Naive": 13.2,
+      "Ridge regression": 14.1,
+      "Seasonal naive": 25.0,
+      "best_model": "Naive",
+      "avg_per_month": 327.0
+    },
+    {
+      "product": "Credit / prepaid card",
+      "Exp. smoothing (damped)": 11.3,
+      "Gradient boosting": 11.5,
+      "Naive": 12.2,
+      "Ridge regression": 12.0,
+      "Seasonal naive": 16.2,
+      "best_model": "Exp. smoothing (damped)",
+      "avg_per_month": 213.0
+    },
+    {
+      "product": "Credit reporting",
+      "Exp. smoothing (damped)": 10.4,
+      "Gradient boosting": 12.6,
+      "Naive": 10.3,
+      "Ridge regression": 11.7,
+      "Seasonal naive": 21.3,
+      "best_model": "Naive",
+      "avg_per_month": 101.0
+    },
+    {
+      "product": "Debt collection",
+      "Exp. smoothing (damped)": 20.0,
+      "Gradient boosting": 22.8,
+      "Naive": 20.4,
+      "Ridge regression": 21.9,
+      "Seasonal naive": 46.5,
+      "best_model": "Exp. smoothing (damped)",
+      "avg_per_month": 36.0
+    },
+    {
+      "product": "Money transfer / virtual currency",
+      "Exp. smoothing (damped)": 12.8,
+      "Gradient boosting": 13.3,
+      "Naive": 10.3,
+      "Ridge regression": 19.3,
+      "Seasonal naive": 38.5,
+      "best_model": "Naive",
+      "avg_per_month": 46.0
+    },
+    {
+      "product": "Mortgage",
+      "Exp. smoothing (damped)": 21.1,
+      "Gradient boosting": 22.3,
+      "Naive": 21.9,
+      "Ridge regression": 23.8,
+      "Seasonal naive": 34.9,
+      "best_model": "Exp. smoothing (damped)",
+      "avg_per_month": 88.0
+    }
+  ],
+  "future": [
+    {
+      "month": "2023-08",
+      "horizon": 1,
+      "forecast": 1843.0,
+      "low_80": 1646.0,
+      "high_80": 2060.0,
+      "robust_level_scenario": 1223.0,
+      "weekdays": 23,
+      "note": "Full-month equivalent (actual data cover 28 days only)"
+    },
+    {
+      "month": "2023-09",
+      "horizon": 2,
+      "forecast": 1493.0,
+      "low_80": 1198.0,
+      "high_80": 1717.0,
+      "robust_level_scenario": 1117.0,
+      "weekdays": 21,
+      "note": ""
+    },
+    {
+      "month": "2023-10",
+      "horizon": 3,
+      "forecast": 1478.0,
+      "low_80": 1178.0,
+      "high_80": 1595.0,
+      "robust_level_scenario": 1170.0,
+      "weekdays": 22,
+      "note": ""
+    }
+  ],
+  "headline": {
+    "Naive": {
+      "val_WAPE": 9.8,
+      "test_WAPE": 13.1,
+      "test_ex_jul_WAPE": 5.6,
+      "val_MAE": 106.0,
+      "test_MAE": 157.0
+    },
+    "Seasonal naive": {
+      "val_WAPE": 14.4,
+      "test_WAPE": 15.5,
+      "test_ex_jul_WAPE": 9.0,
+      "val_MAE": 155.6,
+      "test_MAE": 186.6
+    },
+    "3-month average": {
+      "val_WAPE": 10.6,
+      "test_WAPE": 12.6,
+      "test_ex_jul_WAPE": 5.8,
+      "val_MAE": 114.5,
+      "test_MAE": 151.1
+    },
+    "6-month median": {
+      "val_WAPE": 9.5,
+      "test_WAPE": 12.1,
+      "test_ex_jul_WAPE": 5.8,
+      "val_MAE": 102.5,
+      "test_MAE": 145.4
+    },
+    "Exp. smoothing (damped)": {
+      "val_WAPE": 9.9,
+      "test_WAPE": 13.1,
+      "test_ex_jul_WAPE": 6.0,
+      "val_MAE": 106.5,
+      "test_MAE": 157.9
+    },
+    "ARIMA": {
+      "val_WAPE": 9.8,
+      "test_WAPE": 13.1,
+      "test_ex_jul_WAPE": 5.6,
+      "val_MAE": 106.0,
+      "test_MAE": 157.0
+    },
+    "Ridge regression": {
+      "val_WAPE": 7.6,
+      "test_WAPE": 14.6,
+      "test_ex_jul_WAPE": 9.7,
+      "val_MAE": 82.0,
+      "test_MAE": 175.1
+    },
+    "Gradient boosting": {
+      "val_WAPE": 9.7,
+      "test_WAPE": 11.8,
+      "test_ex_jul_WAPE": 4.4,
+      "val_MAE": 105.1,
+      "test_MAE": 141.4
+    },
+    "Ensemble (ETS+Ridge+GBM)": {
+      "val_WAPE": 8.4,
+      "test_WAPE": 13.0,
+      "test_ex_jul_WAPE": 6.6,
+      "val_MAE": 90.7,
+      "test_MAE": 156.9
+    }
+  },
+  "h1": {
+    "Naive": {
+      "val_WAPE": 6.5,
+      "test_WAPE": 12.1
+    },
+    "Seasonal naive": {
+      "val_WAPE": 14.4,
+      "test_WAPE": 15.5
+    },
+    "3-month average": {
+      "val_WAPE": 9.2,
+      "test_WAPE": 12.8
+    },
+    "6-month median": {
+      "val_WAPE": 9.0,
+      "test_WAPE": 11.6
+    },
+    "Exp. smoothing (damped)": {
+      "val_WAPE": 6.8,
+      "test_WAPE": 12.5
+    },
+    "ARIMA": {
+      "val_WAPE": 6.5,
+      "test_WAPE": 12.1
+    },
+    "Ridge regression": {
+      "val_WAPE": 6.1,
+      "test_WAPE": 13.7
+    },
+    "Gradient boosting": {
+      "val_WAPE": 7.9,
+      "test_WAPE": 11.6
+    },
+    "Ensemble (ETS+Ridge+GBM)": {
+      "val_WAPE": 6.5,
+      "test_WAPE": 12.6
+    }
+  }
+}

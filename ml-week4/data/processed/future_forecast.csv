@@ -1,0 +1,4 @@
+month,horizon,forecast,low_80,high_80,robust_level_scenario,weekdays,note
+2023-08,1,1843.0,1646.0,2060.0,1223.0,23,Full-month equivalent (actual data cover 28 days only)
+2023-09,2,1493.0,1198.0,1717.0,1117.0,21,
+2023-10,3,1478.0,1178.0,1595.0,1170.0,22,

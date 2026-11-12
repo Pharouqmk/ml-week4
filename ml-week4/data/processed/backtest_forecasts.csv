@@ -1,0 +1,1027 @@
+target,horizon,model,actual,forecast,period
+2022-01,1,Naive,994.0,829.0434782608696,validation
+2022-01,1,Seasonal naive,994.0,940.0,validation
+2022-01,1,3-month average,994.0,870.1357048748354,validation
+2022-01,1,6-month median,994.0,868.25,validation
+2022-01,1,Exp. smoothing (damped),994.0,845.510611670361,validation
+2022-01,1,ARIMA,994.0,829.0434782608696,validation
+2022-01,1,Ridge regression,994.0,834.8266352611405,validation
+2022-01,1,Gradient boosting,994.0,860.7851738677923,validation
+2022-01,1,Ensemble (ETS+Ridge+GBM),994.0,847.0408069330979,validation
+2022-01,2,Naive,994.0,916.3636363636363,validation
+2022-01,2,Seasonal naive,994.0,940.0,validation
+2022-01,2,3-month average,994.0,855.0151515151515,validation
+2022-01,2,6-month median,994.0,881.5227272727273,validation
+2022-01,2,Exp. smoothing (damped),994.0,913.5731408040032,validation
+2022-01,2,ARIMA,994.0,916.3636363636365,validation
+2022-01,2,Ridge regression,994.0,912.0811783133829,validation
+2022-01,2,Gradient boosting,994.0,902.6461949570621,validation
+2022-01,2,Ensemble (ETS+Ridge+GBM),994.0,909.4335046914827,validation
+2022-01,3,Naive,994.0,865.0,validation
+2022-01,3,Seasonal naive,994.0,940.0,validation
+2022-01,3,3-month average,994.0,840.060606060606,validation
+2022-01,3,6-month median,994.0,868.25,validation
+2022-01,3,Exp. smoothing (damped),994.0,862.0370374333319,validation
+2022-01,3,ARIMA,994.0,865.0000000000001,validation
+2022-01,3,Ridge regression,994.0,919.2534870662344,validation
+2022-01,3,Gradient boosting,994.0,896.9629772697442,validation
+2022-01,3,Ensemble (ETS+Ridge+GBM),994.0,892.7511672564369,validation
+2022-01,4,Naive,994.0,783.6818181818182,validation
+2022-01,4,Seasonal naive,994.0,940.0,validation
+2022-01,4,3-month average,994.0,855.5909090909091,validation
+2022-01,4,6-month median,994.0,881.0454545454545,validation
+2022-01,4,Exp. smoothing (damped),994.0,804.4293062801314,validation
+2022-01,4,ARIMA,994.0,783.6818181818184,validation
+2022-01,4,Ridge regression,994.0,1026.2339328423996,validation
+2022-01,4,Gradient boosting,994.0,851.7118733977748,validation
+2022-01,4,Ensemble (ETS+Ridge+GBM),994.0,894.1250375067685,validation
+2022-01,5,Naive,994.0,871.5,validation
+2022-01,5,Seasonal naive,994.0,940.0,validation
+2022-01,5,3-month average,994.0,891.5454545454545,validation
+2022-01,5,6-month median,994.0,891.0681818181818,validation
+2022-01,5,Exp. smoothing (damped),994.0,892.6475683289673,validation
+2022-01,5,ARIMA,994.0,871.5000000000001,validation
+2022-01,5,Ridge regression,994.0,1227.3816689679647,validation
+2022-01,5,Gradient boosting,994.0,884.5254890394992,validation
+2022-01,5,Ensemble (ETS+Ridge+GBM),994.0,1001.5182421121439,validation
+2022-01,6,Naive,994.0,911.590909090909,validation
+2022-01,6,Seasonal naive,994.0,940.0,validation
+2022-01,6,3-month average,994.0,885.7121212121211,validation
+2022-01,6,6-month median,994.0,901.5681818181818,validation
+2022-01,6,Exp. smoothing (damped),994.0,929.3742249453177,validation
+2022-01,6,ARIMA,994.0,911.5909090909089,validation
+2022-01,6,Ridge regression,994.0,1245.6840305042574,validation
+2022-01,6,Gradient boosting,994.0,881.3205117197718,validation
+2022-01,6,Ensemble (ETS+Ridge+GBM),994.0,1018.7929223897822,validation
+2022-02,1,Naive,958.0,946.6666666666667,validation
+2022-02,1,Seasonal naive,958.0,968.0,validation
+2022-02,1,3-month average,958.0,869.6530522617479,validation
+2022-02,1,6-month median,958.0,826.9047619047619,validation
+2022-02,1,Exp. smoothing (damped),958.0,920.913963769239,validation
+2022-02,1,ARIMA,958.0,946.6666666666665,validation
+2022-02,1,Ridge regression,958.0,941.3818203382018,validation
+2022-02,1,Gradient boosting,958.0,957.7816934417593,validation
+2022-02,1,Ensemble (ETS+Ridge+GBM),958.0,940.0258258497333,validation
+2022-02,2,Naive,958.0,789.5652173913044,validation
+2022-02,2,Seasonal naive,958.0,968.0,validation
+2022-02,2,3-month average,958.0,828.7006713093671,validation
+2022-02,2,6-month median,958.0,826.9047619047619,validation
+2022-02,2,Exp. smoothing (damped),958.0,807.4292624976451,validation
+2022-02,2,ARIMA,958.0,789.5652173913044,validation
+2022-02,2,Ridge regression,958.0,837.5308400186518,validation
+2022-02,2,Gradient boosting,958.0,899.0319266870107,validation
+2022-02,2,Ensemble (ETS+Ridge+GBM),958.0,847.9973430677692,validation
+2022-02,3,Naive,958.0,872.7272727272726,validation
+2022-02,3,Seasonal naive,958.0,968.0,validation
+2022-02,3,3-month average,958.0,814.3001443001442,validation
+2022-02,3,6-month median,958.0,839.5454545454545,validation
+2022-02,3,Exp. smoothing (damped),958.0,873.1186973286451,validation
+2022-02,3,ARIMA,958.0,872.7272727272727,validation
+2022-02,3,Ridge regression,958.0,896.3683330272148,validation
+2022-02,3,Gradient boosting,958.0,862.7813221680207,validation
+2022-02,3,Ensemble (ETS+Ridge+GBM),958.0,877.4227841746269,validation
+2022-02,4,Naive,958.0,823.8095238095239,validation
+2022-02,4,Seasonal naive,958.0,968.0,validation
+2022-02,4,3-month average,958.0,800.05772005772,validation
+2022-02,4,6-month median,958.0,826.9047619047619,validation
+2022-02,4,Exp. smoothing (damped),958.0,823.3753769725308,validation
+2022-02,4,ARIMA,958.0,823.809523809524,validation
+2022-02,4,Ridge regression,958.0,974.8198163824427,validation
+2022-02,4,Gradient boosting,958.0,865.4518374369935,validation
+2022-02,4,Ensemble (ETS+Ridge+GBM),958.0,887.8823435973223,validation
+2022-02,5,Naive,958.0,746.3636363636364,validation
+2022-02,5,Seasonal naive,958.0,968.0,validation
+2022-02,5,3-month average,958.0,814.8484848484849,validation
+2022-02,5,6-month median,958.0,839.090909090909,validation
+2022-02,5,Exp. smoothing (damped),958.0,767.7614892125564,validation
+2022-02,5,ARIMA,958.0,746.3636363636365,validation
+2022-02,5,Ridge regression,958.0,1181.6910081355054,validation
+2022-02,5,Gradient boosting,958.0,866.5214529700079,validation
+2022-02,5,Ensemble (ETS+Ridge+GBM),958.0,938.6579834393566,validation
+2022-02,6,Naive,958.0,830.0,validation
+2022-02,6,Seasonal naive,958.0,968.0,validation
+2022-02,6,3-month average,958.0,849.090909090909,validation
+2022-02,6,6-month median,958.0,848.6363636363636,validation
+2022-02,6,Exp. smoothing (damped),958.0,852.9272272867621,validation
+2022-02,6,ARIMA,958.0,830.0000000000001,validation
+2022-02,6,Ridge regression,958.0,1285.382689320044,validation
+2022-02,6,Gradient boosting,958.0,876.9910275520183,validation
+2022-02,6,Ensemble (ETS+Ridge+GBM),958.0,1005.100314719608,validation
+2022-03,1,Naive,1125.0,1101.7,validation
+2022-03,1,Seasonal naive,1125.0,1098.0,validation
+2022-03,1,3-month average,1125.0,1032.788888888889,validation
+2022-03,1,6-month median,1125.0,975.508658008658,validation
+2022-03,1,Exp. smoothing (damped),1125.0,1098.5358973317964,validation
+2022-03,1,ARIMA,1125.0,1101.7,validation
+2022-03,1,Ridge regression,1125.0,1133.3813692006333,validation
+2022-03,1,Gradient boosting,1125.0,1066.1722236200865,validation
+2022-03,1,Ensemble (ETS+Ridge+GBM),1125.0,1099.3631633841721,validation
+2022-03,2,Naive,1125.0,1088.6666666666667,validation
+2022-03,2,Seasonal naive,1125.0,1098.0,validation
+2022-03,2,3-month average,1125.0,1000.1010101010102,validation
+2022-03,2,6-month median,1125.0,950.9404761904761,validation
+2022-03,2,Exp. smoothing (damped),1125.0,1063.2725445098054,validation
+2022-03,2,ARIMA,1125.0,1088.6666666666665,validation
+2022-03,2,Ridge regression,1125.0,1102.0562859904035,validation
+2022-03,2,Gradient boosting,1125.0,1040.8486624900627,validation
+2022-03,2,Ensemble (ETS+Ridge+GBM),1125.0,1068.7258309967572,validation
+2022-03,3,Naive,1125.0,908.0,validation
+2022-03,3,Seasonal naive,1125.0,1098.0,validation
+2022-03,3,3-month average,1125.0,953.0057720057721,validation
+2022-03,3,6-month median,1125.0,950.9404761904761,validation
+2022-03,3,Exp. smoothing (damped),1125.0,931.0393308149265,validation
+2022-03,3,ARIMA,1125.0,908.0,validation
+2022-03,3,Ridge regression,1125.0,1043.1451800900286,validation
+2022-03,3,Gradient boosting,1125.0,1034.4134182551868,validation
+2022-03,3,Ensemble (ETS+Ridge+GBM),1125.0,1002.8659763867139,validation
+2022-03,4,Naive,1125.0,1003.6363636363635,validation
+2022-03,4,Seasonal naive,1125.0,1098.0,validation
+2022-03,4,3-month average,1125.0,936.4451659451659,validation
+2022-03,4,6-month median,1125.0,965.4772727272727,validation
+2022-03,4,Exp. smoothing (damped),1125.0,1007.5753652843575,validation
+2022-03,4,ARIMA,1125.0,1003.6363636363637,validation
+2022-03,4,Ridge regression,1125.0,1133.1144257710896,validation
+2022-03,4,Gradient boosting,1125.0,1027.4914085162645,validation
+2022-03,4,Ensemble (ETS+Ridge+GBM),1125.0,1056.0603998572371,validation
+2022-03,5,Naive,1125.0,947.3809523809524,validation
+2022-03,5,Seasonal naive,1125.0,1098.0,validation
+2022-03,5,3-month average,1125.0,920.066378066378,validation
+2022-03,5,6-month median,1125.0,950.9404761904761,validation
+2022-03,5,Exp. smoothing (damped),1125.0,949.613834730572,validation
+2022-03,5,ARIMA,1125.0,947.3809523809525,validation
+2022-03,5,Ridge regression,1125.0,1292.8687271260474,validation
+2022-03,5,Gradient boosting,1125.0,1053.3497381209766,validation
+2022-03,5,Ensemble (ETS+Ridge+GBM),1125.0,1098.6107666591986,validation
+2022-03,6,Naive,1125.0,858.3181818181819,validation
+2022-03,6,Seasonal naive,1125.0,1098.0,validation
+2022-03,6,3-month average,1125.0,937.0757575757576,validation
+2022-03,6,6-month median,1125.0,964.9545454545454,validation
+2022-03,6,Exp. smoothing (damped),1125.0,884.8003835677738,validation
+2022-03,6,ARIMA,1125.0,858.318181818182,validation
+2022-03,6,Ridge regression,1125.0,1577.1093775196787,validation
+2022-03,6,Gradient boosting,1125.0,996.4928245576714,validation
+2022-03,6,Ensemble (ETS+Ridge+GBM),1125.0,1152.8008618817078,validation
+2022-04,1,Naive,1076.0,1027.1739130434783,validation
+2022-04,1,Seasonal naive,1076.0,890.590909090909,validation
+2022-04,1,3-month average,1076.0,1009.0246376811594,validation
+2022-04,1,6-month median,1076.0,955.1818181818181,validation
+2022-04,1,Exp. smoothing (damped),1076.0,1027.1293631241,validation
+2022-04,1,ARIMA,1076.0,1027.1739130434785,validation
+2022-04,1,Ridge regression,1076.0,1063.404466735025,validation
+2022-04,1,Gradient boosting,1076.0,944.5874536332828,validation
+2022-04,1,Ensemble (ETS+Ridge+GBM),1076.0,1011.7070944974694,validation
+2022-04,2,Naive,1076.0,1005.9,validation
+2022-04,2,Seasonal naive,1076.0,890.590909090909,validation
+2022-04,2,3-month average,1076.0,942.98115942029,validation
+2022-04,2,6-month median,1076.0,890.6818181818182,validation
+2022-04,2,Exp. smoothing (damped),1076.0,1007.2567132707927,validation
+2022-04,2,ARIMA,1076.0,1005.9000000000001,validation
+2022-04,2,Ridge regression,1076.0,1075.227543833329,validation
+2022-04,2,Gradient boosting,1076.0,974.8554279550817,validation
+2022-04,2,Ensemble (ETS+Ridge+GBM),1076.0,1019.1132283530678,validation
+2022-04,3,Naive,1076.0,994.0,validation
+2022-04,3,Seasonal naive,1076.0,890.590909090909,validation
+2022-04,3,3-month average,1076.0,913.1357048748353,validation
+2022-04,3,6-month median,1076.0,868.25,validation
+2022-04,3,Exp. smoothing (damped),1076.0,974.649190797231,validation
+2022-04,3,ARIMA,1076.0,993.9999999999999,validation
+2022-04,3,Ridge regression,1076.0,1068.6843029737756,validation
+2022-04,3,Gradient boosting,1076.0,932.0077949857254,validation
+2022-04,3,Ensemble (ETS+Ridge+GBM),1076.0,991.7804295855773,validation
+2022-04,4,Naive,1076.0,829.0434782608696,validation
+2022-04,4,Seasonal naive,1076.0,890.590909090909,validation
+2022-04,4,3-month average,1076.0,870.1357048748354,validation
+2022-04,4,6-month median,1076.0,868.25,validation
+2022-04,4,Exp. smoothing (damped),1076.0,852.3466590704263,validation
+2022-04,4,ARIMA,1076.0,829.0434782608696,validation
+2022-04,4,Ridge regression,1076.0,1074.0137623334188,validation
+2022-04,4,Gradient boosting,1076.0,906.6026713762567,validation
+2022-04,4,Ensemble (ETS+Ridge+GBM),1076.0,944.3210309267006,validation
+2022-04,5,Naive,1076.0,916.3636363636363,validation
+2022-04,5,Seasonal naive,1076.0,890.590909090909,validation
+2022-04,5,3-month average,1076.0,855.0151515151515,validation
+2022-04,5,6-month median,1076.0,881.5227272727273,validation
+2022-04,5,Exp. smoothing (damped),1076.0,923.1296726436442,validation
+2022-04,5,ARIMA,1076.0,916.3636363636365,validation
+2022-04,5,Ridge regression,1076.0,1247.0287482614162,validation
+2022-04,5,Gradient boosting,1076.0,940.3998060706651,validation
+2022-04,5,Ensemble (ETS+Ridge+GBM),1076.0,1036.852742325242,validation
+2022-04,6,Naive,1076.0,865.0,validation
+2022-04,6,Seasonal naive,1076.0,890.590909090909,validation
+2022-04,6,3-month average,1076.0,840.060606060606,validation
+2022-04,6,6-month median,1076.0,868.25,validation
+2022-04,6,Exp. smoothing (damped),1076.0,869.520818648701,validation
+2022-04,6,ARIMA,1076.0,865.0000000000001,validation
+2022-04,6,Ridge regression,1076.0,1453.9399653731687,validation
+2022-04,6,Gradient boosting,1076.0,919.6958912354606,validation
+2022-04,6,Ensemble (ETS+Ridge+GBM),1076.0,1081.0522250857769,validation
+2022-05,1,Naive,933.0,1127.2380952380954,validation
+2022-05,1,Seasonal naive,933.0,894.6666666666666,validation
+2022-05,1,3-month average,933.0,1085.7083505866112,validation
+2022-05,1,6-month median,933.0,1047.5666666666666,validation
+2022-05,1,Exp. smoothing (damped),933.0,1123.0080459739315,validation
+2022-05,1,ARIMA,933.0,1127.2380952380954,validation
+2022-05,1,Ridge regression,933.0,1169.1501751258463,validation
+2022-05,1,Gradient boosting,933.0,1039.8309310529926,validation
+2022-05,1,Ensemble (ETS+Ridge+GBM),933.0,1110.66305071759,validation
+2022-05,2,Naive,933.0,1076.086956521739,validation
+2022-05,2,Seasonal naive,933.0,894.6666666666666,validation
+2022-05,2,3-month average,933.0,1057.0734299516907,validation
+2022-05,2,6-month median,933.0,1000.6666666666666,validation
+2022-05,2,Exp. smoothing (damped),933.0,1080.7262381230564,validation
+2022-05,2,ARIMA,933.0,1076.0869565217392,validation
+2022-05,2,Ridge regression,933.0,1157.0333636771888,validation
+2022-05,2,Gradient boosting,933.0,951.2681457085732,validation
+2022-05,2,Ensemble (ETS+Ridge+GBM),933.0,1063.0092491696062,validation
+2022-05,3,Naive,933.0,1053.8,validation
+2022-05,3,Seasonal naive,933.0,894.6666666666666,validation
+2022-05,3,3-month average,933.0,987.8850241545896,validation
+2022-05,3,6-month median,933.0,933.0952380952381,validation
+2022-05,3,Exp. smoothing (damped),933.0,1059.6469310579992,validation
+2022-05,3,ARIMA,933.0,1053.8000000000002,validation
+2022-05,3,Ridge regression,933.0,1144.7607864184226,validation
+2022-05,3,Gradient boosting,933.0,973.3268237414558,validation
+2022-05,3,Ensemble (ETS+Ridge+GBM),933.0,1059.2448470726258,validation
+2022-05,4,Naive,933.0,1041.3333333333335,validation
+2022-05,4,Seasonal naive,933.0,894.6666666666666,validation
+2022-05,4,3-month average,933.0,956.6183574879227,validation
+2022-05,4,6-month median,933.0,909.5952380952381,validation
+2022-05,4,Exp. smoothing (damped),933.0,1025.0587218392718,validation
+2022-05,4,ARIMA,933.0,1041.3333333333333,validation
+2022-05,4,Ridge regression,933.0,1185.9009323414662,validation
+2022-05,4,Gradient boosting,933.0,948.9188563051987,validation
+2022-05,4,Ensemble (ETS+Ridge+GBM),933.0,1053.2928368286455,validation
+2022-05,5,Naive,933.0,868.5217391304348,validation
+2022-05,5,Seasonal naive,933.0,894.6666666666666,validation
+2022-05,5,3-month average,933.0,911.5707384403038,validation
+2022-05,5,6-month median,933.0,909.5952380952381,validation
+2022-05,5,Exp. smoothing (damped),933.0,895.297954346811,validation
+2022-05,5,ARIMA,933.0,868.5217391304348,validation
+2022-05,5,Ridge regression,933.0,1316.8770718271194,validation
+2022-05,5,Gradient boosting,933.0,916.0874426270274,validation
+2022-05,5,Ensemble (ETS+Ridge+GBM),933.0,1042.754156266986,validation
+2022-05,6,Naive,933.0,959.9999999999999,validation
+2022-05,6,Seasonal naive,933.0,894.6666666666666,validation
+2022-05,6,3-month average,933.0,895.7301587301587,validation
+2022-05,6,6-month median,933.0,923.5,validation
+2022-05,6,Exp. smoothing (damped),933.0,970.3921138219732,validation
+2022-05,6,ARIMA,933.0,960.0000000000001,validation
+2022-05,6,Ridge regression,933.0,1487.1514814541497,validation
+2022-05,6,Gradient boosting,933.0,953.7503939383063,validation
+2022-05,6,Ensemble (ETS+Ridge+GBM),933.0,1137.0979964048097,validation
+2022-06,1,Naive,939.0,933.0,validation
+2022-06,1,Seasonal naive,939.0,934.0,validation
+2022-06,1,3-month average,939.0,1045.4416839199448,validation
+2022-06,1,6-month median,939.0,1047.5666666666666,validation
+2022-06,1,Exp. smoothing (damped),939.0,977.1426668279236,validation
+2022-06,1,ARIMA,939.0,933.0,validation
+2022-06,1,Ridge regression,939.0,1009.1652456152904,validation
+2022-06,1,Gradient boosting,939.0,924.7551302900607,validation
+2022-06,1,Ensemble (ETS+Ridge+GBM),939.0,970.3543475777582,validation
+2022-06,2,Naive,939.0,1127.2380952380954,validation
+2022-06,2,Seasonal naive,939.0,934.0,validation
+2022-06,2,3-month average,939.0,1085.7083505866112,validation
+2022-06,2,6-month median,939.0,1047.5666666666666,validation
+2022-06,2,Exp. smoothing (damped),939.0,1128.1886958501766,validation
+2022-06,2,ARIMA,939.0,1127.2380952380954,validation
+2022-06,2,Ridge regression,939.0,1200.1465074888276,validation
+2022-06,2,Gradient boosting,939.0,964.7389636351144,validation
+2022-06,2,Ensemble (ETS+Ridge+GBM),939.0,1097.6913889913728,validation
+2022-06,3,Naive,939.0,1076.086956521739,validation
+2022-06,3,Seasonal naive,939.0,934.0,validation
+2022-06,3,3-month average,939.0,1057.0734299516907,validation
+2022-06,3,6-month median,939.0,1000.6666666666666,validation
+2022-06,3,Exp. smoothing (damped),939.0,1085.388761303757,validation
+2022-06,3,ARIMA,939.0,1076.0869565217392,validation
+2022-06,3,Ridge regression,939.0,1204.0054933054441,validation
+2022-06,3,Gradient boosting,939.0,904.8449491956287,validation
+2022-06,3,Ensemble (ETS+Ridge+GBM),939.0,1064.7464012682767,validation
+2022-06,4,Naive,939.0,1053.8,validation
+2022-06,4,Seasonal naive,939.0,934.0,validation
+2022-06,4,3-month average,939.0,987.8850241545896,validation
+2022-06,4,6-month median,939.0,933.0952380952381,validation
+2022-06,4,Exp. smoothing (damped),939.0,1064.0504153893914,validation
+2022-06,4,ARIMA,939.0,1053.8000000000002,validation
+2022-06,4,Ridge regression,939.0,1188.799982096557,validation
+2022-06,4,Gradient boosting,939.0,931.0923642117173,validation
+2022-06,4,Ensemble (ETS+Ridge+GBM),939.0,1061.314253899222,validation
+2022-06,5,Naive,939.0,1041.3333333333335,validation
+2022-06,5,Seasonal naive,939.0,934.0,validation
+2022-06,5,3-month average,939.0,956.6183574879227,validation
+2022-06,5,6-month median,939.0,909.5952380952381,validation
+2022-06,5,Exp. smoothing (damped),939.0,1029.036398328805,validation
+2022-06,5,ARIMA,939.0,1041.3333333333333,validation
+2022-06,5,Ridge regression,939.0,1201.752635714892,validation
+2022-06,5,Gradient boosting,939.0,979.4050799891222,validation
+2022-06,5,Ensemble (ETS+Ridge+GBM),939.0,1070.0647046776064,validation
+2022-06,6,Naive,939.0,868.5217391304348,validation
+2022-06,6,Seasonal naive,939.0,934.0,validation
+2022-06,6,3-month average,939.0,911.5707384403038,validation
+2022-06,6,6-month median,939.0,909.5952380952381,validation
+2022-06,6,Exp. smoothing (damped),939.0,897.6494966813341,validation
+2022-06,6,ARIMA,939.0,868.5217391304348,validation
+2022-06,6,Ridge regression,939.0,1431.927201759744,validation
+2022-06,6,Gradient boosting,939.0,938.5635357042361,validation
+2022-06,6,Ensemble (ETS+Ridge+GBM),939.0,1089.3800780484382,validation
+2022-07,1,Naive,1044.0,896.3181818181818,validation
+2022-07,1,Seasonal naive,1044.0,911.590909090909,validation
+2022-07,1,3-month average,1044.0,954.3030303030303,validation
+2022-07,1,6-month median,1044.0,999.95,validation
+2022-07,1,Exp. smoothing (damped),1044.0,905.7864700826393,validation
+2022-07,1,ARIMA,1044.0,896.3181818181816,validation
+2022-07,1,Ridge regression,1044.0,949.6462351627089,validation
+2022-07,1,Gradient boosting,1044.0,919.5173164478355,validation
+2022-07,1,Ensemble (ETS+Ridge+GBM),1044.0,924.9833405643946,validation
+2022-07,2,Naive,1044.0,890.590909090909,validation
+2022-07,2,Seasonal naive,1044.0,911.590909090909,validation
+2022-07,2,3-month average,1044.0,997.9216073781292,validation
+2022-07,2,6-month median,1044.0,999.95,validation
+2022-07,2,Exp. smoothing (damped),1044.0,935.9215514165576,validation
+2022-07,2,ARIMA,1044.0,890.590909090909,validation
+2022-07,2,Ridge regression,1044.0,1029.014952253429,validation
+2022-07,2,Gradient boosting,1044.0,928.3791209952007,validation
+2022-07,2,Ensemble (ETS+Ridge+GBM),1044.0,964.4385415550624,validation
+2022-07,3,Naive,1044.0,1076.0,validation
+2022-07,3,Seasonal naive,1044.0,911.590909090909,validation
+2022-07,3,3-month average,1044.0,1036.3579710144927,validation
+2022-07,3,6-month median,1044.0,999.95,validation
+2022-07,3,Exp. smoothing (damped),1044.0,1081.8278314553568,validation
+2022-07,3,ARIMA,1044.0,1076.0000000000002,validation
+2022-07,3,Ridge regression,1044.0,1165.4352254234732,validation
+2022-07,3,Gradient boosting,1044.0,872.77537925889,validation
+2022-07,3,Ensemble (ETS+Ridge+GBM),1044.0,1040.0128120459067,validation
+2022-07,4,Naive,1044.0,1027.1739130434783,validation
+2022-07,4,Seasonal naive,1044.0,911.590909090909,validation
+2022-07,4,3-month average,1044.0,1009.0246376811594,validation
+2022-07,4,6-month median,1044.0,955.1818181818181,validation
+2022-07,4,Exp. smoothing (damped),1044.0,1040.481245874529,validation
+2022-07,4,ARIMA,1044.0,1027.1739130434785,validation
+2022-07,4,Ridge regression,1044.0,1189.4562468928866,validation
+2022-07,4,Gradient boosting,1044.0,891.0586047562213,validation
+2022-07,4,Ensemble (ETS+Ridge+GBM),1044.0,1040.3320325078787,validation
+2022-07,5,Naive,1044.0,1005.9,validation
+2022-07,5,Seasonal naive,1044.0,911.590909090909,validation
+2022-07,5,3-month average,1044.0,942.98115942029,validation
+2022-07,5,6-month median,1044.0,890.6818181818182,validation
+2022-07,5,Exp. smoothing (damped),1044.0,1019.8667967400758,validation
+2022-07,5,ARIMA,1044.0,1005.9000000000001,validation
+2022-07,5,Ridge regression,1044.0,1223.635554263033,validation
+2022-07,5,Gradient boosting,1044.0,873.469645424979,validation
+2022-07,5,Ensemble (ETS+Ridge+GBM),1044.0,1038.990665476029,validation
+2022-07,6,Naive,1044.0,994.0,validation
+2022-07,6,Seasonal naive,1044.0,911.590909090909,validation
+2022-07,6,3-month average,1044.0,913.1357048748353,validation
+2022-07,6,6-month median,1044.0,868.25,validation
+2022-07,6,Exp. smoothing (damped),1044.0,986.0399052342593,validation
+2022-07,6,ARIMA,1044.0,993.9999999999999,validation
+2022-07,6,Ridge regression,1044.0,1310.53035349942,validation
+2022-07,6,Gradient boosting,1044.0,883.1779024911344,validation
+2022-07,6,Ensemble (ETS+Ridge+GBM),1044.0,1059.9160537416044,validation
+2022-08,1,Naive,1281.0,1143.4285714285716,validation
+2022-08,1,Seasonal naive,1281.0,954.5,validation
+2022-08,1,3-month average,1281.0,1033.5064935064936,validation
+2022-08,1,6-month median,1281.0,1113.35,validation
+2022-08,1,Exp. smoothing (damped),1281.0,1113.6662905280557,validation
+2022-08,1,ARIMA,1281.0,1143.4285714285716,validation
+2022-08,1,Ridge regression,1281.0,1181.4770180020892,validation
+2022-08,1,Gradient boosting,1281.0,1071.569607468147,validation
+2022-08,1,Ensemble (ETS+Ridge+GBM),1281.0,1122.2376386660974,validation
+2022-08,2,Naive,1281.0,981.6818181818181,validation
+2022-08,2,Seasonal naive,1281.0,954.5,validation
+2022-08,2,3-month average,1281.0,1045.1890331890331,validation
+2022-08,2,6-month median,1281.0,1095.1833333333334,validation
+2022-08,2,Exp. smoothing (damped),1281.0,995.139832188634,validation
+2022-08,2,ARIMA,1281.0,981.681818181818,validation
+2022-08,2,Ridge regression,1281.0,1088.8764858234015,validation
+2022-08,2,Gradient boosting,1281.0,998.1975118926991,validation
+2022-08,2,Ensemble (ETS+Ridge+GBM),1281.0,1027.4046099682448,validation
+2022-08,3,Naive,1281.0,975.4090909090909,validation
+2022-08,3,Seasonal naive,1281.0,954.5,validation
+2022-08,3,3-month average,1281.0,1092.9617604617606,validation
+2022-08,3,6-month median,1281.0,1095.1833333333334,validation
+2022-08,3,Exp. smoothing (damped),1281.0,1028.538138465313,validation
+2022-08,3,ARIMA,1281.0,975.4090909090909,validation
+2022-08,3,Ridge regression,1281.0,1198.8041039799687,validation
+2022-08,3,Gradient boosting,1281.0,965.2143464002854,validation
+2022-08,3,Ensemble (ETS+Ridge+GBM),1281.0,1064.1855296151891,validation
+2022-08,4,Naive,1281.0,1178.4761904761906,validation
+2022-08,4,Seasonal naive,1281.0,954.5,validation
+2022-08,4,3-month average,1281.0,1135.05873015873,validation
+2022-08,4,6-month median,1281.0,1095.1833333333334,validation
+2022-08,4,Exp. smoothing (damped),1281.0,1190.2211615239871,validation
+2022-08,4,ARIMA,1281.0,1178.4761904761906,validation
+2022-08,4,Ridge regression,1281.0,1287.7031533795052,validation
+2022-08,4,Gradient boosting,1281.0,973.4484249859007,validation
+2022-08,4,Ensemble (ETS+Ridge+GBM),1281.0,1150.457579963131,validation
+2022-08,5,Naive,1281.0,1125.0,validation
+2022-08,5,Seasonal naive,1281.0,954.5,validation
+2022-08,5,3-month average,1281.0,1105.1222222222223,validation
+2022-08,5,6-month median,1281.0,1046.1515151515152,validation
+2022-08,5,Exp. smoothing (damped),1281.0,1144.4005312160057,validation
+2022-08,5,ARIMA,1281.0,1125.0,validation
+2022-08,5,Ridge regression,1281.0,1283.4268714788136,validation
+2022-08,5,Gradient boosting,1281.0,945.6239159199276,validation
+2022-08,5,Ensemble (ETS+Ridge+GBM),1281.0,1124.4837728715822,validation
+2022-08,6,Naive,1281.0,1101.7,validation
+2022-08,6,Seasonal naive,1281.0,954.5,validation
+2022-08,6,3-month average,1281.0,1032.788888888889,validation
+2022-08,6,6-month median,1281.0,975.508658008658,validation
+2022-08,6,Exp. smoothing (damped),1281.0,1121.554689232237,validation
+2022-08,6,ARIMA,1281.0,1101.7,validation
+2022-08,6,Ridge regression,1281.0,1347.696400720227,validation
+2022-08,6,Gradient boosting,1281.0,955.5853675394007,validation
+2022-08,6,Ensemble (ETS+Ridge+GBM),1281.0,1141.6121524972884,validation
+2022-09,1,Naive,1194.0,1225.304347826087,validation
+2022-09,1,Seasonal naive,1194.0,821.0,validation
+2022-09,1,3-month average,1194.0,1086.0062111801242,validation
+2022-09,1,6-month median,1194.0,1084.9006211180124,validation
+2022-09,1,Exp. smoothing (damped),1194.0,1205.7562356090841,validation
+2022-09,1,ARIMA,1194.0,1225.3043478260875,validation
+2022-09,1,Ridge regression,1194.0,1228.036404068895,validation
+2022-09,1,Gradient boosting,1194.0,1047.1595592550084,validation
+2022-09,1,Ensemble (ETS+Ridge+GBM),1194.0,1160.3173996443293,validation
+2022-09,2,Naive,1194.0,1093.7142857142858,validation
+2022-09,2,Seasonal naive,1194.0,821.0,validation
+2022-09,2,3-month average,1194.0,988.5714285714286,validation
+2022-09,2,6-month median,1194.0,1064.9434782608696,validation
+2022-09,2,Exp. smoothing (damped),1194.0,1069.5000551242458,validation
+2022-09,2,ARIMA,1194.0,1093.7142857142858,validation
+2022-09,2,Ridge regression,1194.0,1138.5045422235828,validation
+2022-09,2,Gradient boosting,1194.0,917.0275407119484,validation
+2022-09,2,Ensemble (ETS+Ridge+GBM),1194.0,1041.677379353259,validation
+2022-09,3,Naive,1194.0,939.0,validation
+2022-09,3,Seasonal naive,1194.0,821.0,validation
+2022-09,3,3-month average,1194.0,999.7460317460317,validation
+2022-09,3,6-month median,1194.0,1047.5666666666666,validation
+2022-09,3,Exp. smoothing (damped),1194.0,954.811838172745,validation
+2022-09,3,ARIMA,1194.0,938.9999999999998,validation
+2022-09,3,Ridge regression,1194.0,1135.1483532591444,validation
+2022-09,3,Gradient boosting,1194.0,915.4479923883453,validation
+2022-09,3,Ensemble (ETS+Ridge+GBM),1194.0,1001.8027279400782,validation
+2022-09,4,Naive,1194.0,933.0,validation
+2022-09,4,Seasonal naive,1194.0,821.0,validation
+2022-09,4,3-month average,1194.0,1045.4416839199448,validation
+2022-09,4,6-month median,1194.0,1047.5666666666666,validation
+2022-09,4,Exp. smoothing (damped),1194.0,987.1322843693588,validation
+2022-09,4,ARIMA,1194.0,933.0,validation
+2022-09,4,Ridge regression,1194.0,1227.1774799485813,validation
+2022-09,4,Gradient boosting,1194.0,925.2218158534649,validation
+2022-09,4,Ensemble (ETS+Ridge+GBM),1194.0,1046.5105267238016,validation
+2022-09,5,Naive,1194.0,1127.2380952380954,validation
+2022-09,5,Seasonal naive,1194.0,821.0,validation
+2022-09,5,3-month average,1194.0,1085.7083505866112,validation
+2022-09,5,6-month median,1194.0,1047.5666666666666,validation
+2022-09,5,Exp. smoothing (damped),1194.0,1143.5757434000311,validation
+2022-09,5,ARIMA,1194.0,1127.2380952380954,validation
+2022-09,5,Ridge regression,1194.0,1207.6662658709058,validation
+2022-09,5,Gradient boosting,1194.0,977.089307352014,validation
+2022-09,5,Ensemble (ETS+Ridge+GBM),1194.0,1109.4437722076502,validation
+2022-09,6,Naive,1194.0,1076.086956521739,validation
+2022-09,6,Seasonal naive,1194.0,821.0,validation
+2022-09,6,3-month average,1194.0,1057.0734299516907,validation
+2022-09,6,6-month median,1194.0,1000.6666666666666,validation
+2022-09,6,Exp. smoothing (damped),1194.0,1099.2369208199405,validation
+2022-09,6,ARIMA,1194.0,1076.0869565217392,validation
+2022-09,6,Ridge regression,1194.0,1227.7730994503938,validation
+2022-09,6,Gradient boosting,1194.0,896.9734060948335,validation
+2022-09,6,Ensemble (ETS+Ridge+GBM),1194.0,1074.6611421217226,validation
+2022-10,1,Naive,1133.0,1139.7272727272727,validation
+2022-10,1,Seasonal naive,1133.0,865.0,validation
+2022-10,1,3-month average,1133.0,1117.7786561264822,validation
+2022-10,1,6-month median,1133.0,1060.0,validation
+2022-10,1,Exp. smoothing (damped),1133.0,1146.8765538349062,validation
+2022-10,1,ARIMA,1133.0,1139.727272727273,validation
+2022-10,1,Ridge regression,1133.0,1124.3304981845372,validation
+2022-10,1,Gradient boosting,1133.0,1057.7149237146214,validation
+2022-10,1,Ensemble (ETS+Ridge+GBM),1133.0,1109.6406585780217,validation
+2022-10,2,Naive,1133.0,1169.608695652174,validation
+2022-10,2,Seasonal naive,1133.0,865.0,validation
+2022-10,2,3-month average,1133.0,1036.6422924901185,validation
+2022-10,2,6-month median,1133.0,1035.586956521739,validation
+2022-10,2,Exp. smoothing (damped),1133.0,1156.4376528635337,validation
+2022-10,2,ARIMA,1133.0,1169.6086956521742,validation
+2022-10,2,Ridge regression,1133.0,1157.813636447789,validation
+2022-10,2,Gradient boosting,1133.0,988.992230046095,validation
+2022-10,2,Ensemble (ETS+Ridge+GBM),1133.0,1101.081173119139,validation
+2022-10,3,Naive,1133.0,1044.0,validation
+2022-10,3,Seasonal naive,1133.0,865.0,validation
+2022-10,3,3-month average,1133.0,943.6363636363636,validation
+2022-10,3,6-month median,1133.0,1016.5369565217391,validation
+2022-10,3,Exp. smoothing (damped),1133.0,1024.9267856206611,validation
+2022-10,3,ARIMA,1133.0,1044.0,validation
+2022-10,3,Ridge regression,1133.0,1084.6914407510435,validation
+2022-10,3,Gradient boosting,1133.0,924.5512342839916,validation
+2022-10,3,Ensemble (ETS+Ridge+GBM),1133.0,1011.3898202185654,validation
+2022-10,4,Naive,1133.0,896.3181818181818,validation
+2022-10,4,Seasonal naive,1133.0,865.0,validation
+2022-10,4,3-month average,1133.0,954.3030303030303,validation
+2022-10,4,6-month median,1133.0,999.95,validation
+2022-10,4,Exp. smoothing (damped),1133.0,914.2026395788363,validation
+2022-10,4,ARIMA,1133.0,896.3181818181816,validation
+2022-10,4,Ridge regression,1133.0,1128.2491610693644,validation
+2022-10,4,Gradient boosting,1133.0,861.9555672718061,validation
+2022-10,4,Ensemble (ETS+Ridge+GBM),1133.0,968.1357893066689,validation
+2022-10,5,Naive,1133.0,890.590909090909,validation
+2022-10,5,Seasonal naive,1133.0,865.0,validation
+2022-10,5,3-month average,1133.0,997.9216073781292,validation
+2022-10,5,6-month median,1133.0,999.95,validation
+2022-10,5,Exp. smoothing (damped),1133.0,945.4094177132979,validation
+2022-10,5,ARIMA,1133.0,890.590909090909,validation
+2022-10,5,Ridge regression,1133.0,1196.1728507472787,validation
+2022-10,5,Gradient boosting,1133.0,882.2299683057146,validation
+2022-10,5,Ensemble (ETS+Ridge+GBM),1133.0,1007.9374122554303,validation
+2022-10,6,Naive,1133.0,1076.0,validation
+2022-10,6,Seasonal naive,1133.0,865.0,validation
+2022-10,6,3-month average,1133.0,1036.3579710144927,validation
+2022-10,6,6-month median,1133.0,999.95,validation
+2022-10,6,Exp. smoothing (damped),1133.0,1096.4420295714574,validation
+2022-10,6,ARIMA,1133.0,1076.0000000000002,validation
+2022-10,6,Ridge regression,1133.0,1153.003548207739,validation
+2022-10,6,Gradient boosting,1133.0,900.3479965579647,validation
+2022-10,6,Ensemble (ETS+Ridge+GBM),1133.0,1049.9311914457203,validation
+2022-11,1,Naive,1131.0,1186.952380952381,validation
+2022-11,1,Seasonal naive,1131.0,959.9999999999999,validation
+2022-11,1,3-month average,1131.0,1202.0855762594892,validation
+2022-11,1,6-month median,1131.0,1140.3333333333333,validation
+2022-11,1,Exp. smoothing (damped),1131.0,1194.957182596518,validation
+2022-11,1,ARIMA,1131.0,1186.9523809523807,validation
+2022-11,1,Ridge regression,1131.0,1162.3238620627023,validation
+2022-11,1,Gradient boosting,1131.0,1151.4633601535909,validation
+2022-11,1,Ensemble (ETS+Ridge+GBM),1131.0,1169.581468270937,validation
+2022-11,2,Naive,1131.0,1194.0,validation
+2022-11,2,Seasonal naive,1131.0,959.9999999999999,validation
+2022-11,2,3-month average,1131.0,1171.0062111801244,validation
+2022-11,2,6-month median,1131.0,1110.4761904761906,validation
+2022-11,2,Exp. smoothing (damped),1131.0,1207.1019971408555,validation
+2022-11,2,ARIMA,1131.0,1194.0000000000002,validation
+2022-11,2,Ridge regression,1131.0,1183.1932272720478,validation
+2022-11,2,Gradient boosting,1131.0,1133.0409596569255,validation
+2022-11,2,Ensemble (ETS+Ridge+GBM),1131.0,1174.445394689943,validation
+2022-11,3,Naive,1131.0,1225.304347826087,validation
+2022-11,3,Seasonal naive,1131.0,959.9999999999999,validation
+2022-11,3,3-month average,1131.0,1086.0062111801242,validation
+2022-11,3,6-month median,1131.0,1084.9006211180124,validation
+2022-11,3,Exp. smoothing (damped),1131.0,1217.2272400537463,validation
+2022-11,3,ARIMA,1131.0,1225.3043478260875,validation
+2022-11,3,Ridge regression,1131.0,1167.0925602027312,validation
+2022-11,3,Gradient boosting,1131.0,1083.9998949260464,validation
+2022-11,3,Ensemble (ETS+Ridge+GBM),1131.0,1156.1065650608414,validation
+2022-11,4,Naive,1131.0,1093.7142857142858,validation
+2022-11,4,Seasonal naive,1131.0,959.9999999999999,validation
+2022-11,4,3-month average,1131.0,988.5714285714286,validation
+2022-11,4,6-month median,1131.0,1064.9434782608696,validation
+2022-11,4,Exp. smoothing (damped),1131.0,1077.9444270985573,validation
+2022-11,4,ARIMA,1131.0,1093.7142857142858,validation
+2022-11,4,Ridge regression,1131.0,1115.4354223434427,validation
+2022-11,4,Gradient boosting,1131.0,1011.5895009298932,validation
+2022-11,4,Ensemble (ETS+Ridge+GBM),1131.0,1068.323116790631,validation
+2022-11,5,Naive,1131.0,939.0,validation
+2022-11,5,Seasonal naive,1131.0,959.9999999999999,validation
+2022-11,5,3-month average,1131.0,999.7460317460317,validation
+2022-11,5,6-month median,1131.0,1047.5666666666666,validation
+2022-11,5,Exp. smoothing (damped),1131.0,960.6457377378866,validation
+2022-11,5,ARIMA,1131.0,938.9999999999998,validation
+2022-11,5,Ridge regression,1131.0,1167.0617994919562,validation
+2022-11,5,Gradient boosting,1131.0,896.7217704756305,validation
+2022-11,5,Ensemble (ETS+Ridge+GBM),1131.0,1008.143102568491,validation
+2022-11,6,Naive,1131.0,933.0,validation
+2022-11,6,Seasonal naive,1131.0,959.9999999999999,validation
+2022-11,6,3-month average,1131.0,1045.4416839199448,validation
+2022-11,6,6-month median,1131.0,1047.5666666666666,validation
+2022-11,6,Exp. smoothing (damped),1131.0,993.7090600732807,validation
+2022-11,6,ARIMA,1131.0,933.0,validation
+2022-11,6,Ridge regression,1131.0,1233.2212032341702,validation
+2022-11,6,Gradient boosting,1131.0,923.8924814657348,validation
+2022-11,6,Ensemble (ETS+Ridge+GBM),1131.0,1050.2742482577285,validation
+2022-12,1,Naive,1145.0,1131.0,validation
+2022-12,1,Seasonal naive,1145.0,868.5217391304348,validation
+2022-12,1,3-month average,1145.0,1170.6507936507935,validation
+2022-12,1,6-month median,1145.0,1158.9761904761904,validation
+2022-12,1,Exp. smoothing (damped),1145.0,1146.860025652891,validation
+2022-12,1,ARIMA,1145.0,1130.9999999999995,validation
+2022-12,1,Ridge regression,1145.0,1126.7282864283711,validation
+2022-12,1,Gradient boosting,1145.0,1139.0895565060086,validation
+2022-12,1,Ensemble (ETS+Ridge+GBM),1145.0,1137.5592895290904,validation
+2022-12,2,Naive,1145.0,1186.952380952381,validation
+2022-12,2,Seasonal naive,1145.0,868.5217391304348,validation
+2022-12,2,3-month average,1145.0,1202.0855762594892,validation
+2022-12,2,6-month median,1145.0,1140.3333333333333,validation
+2022-12,2,Exp. smoothing (damped),1145.0,1200.4104994331428,validation
+2022-12,2,ARIMA,1145.0,1186.9523809523807,validation
+2022-12,2,Ridge regression,1145.0,1165.0794743107435,validation
+2022-12,2,Gradient boosting,1145.0,1161.118821904428,validation
+2022-12,2,Ensemble (ETS+Ridge+GBM),1145.0,1175.5362652161048,validation
+2022-12,3,Naive,1145.0,1194.0,validation
+2022-12,3,Seasonal naive,1145.0,868.5217391304348,validation
+2022-12,3,3-month average,1145.0,1171.0062111801244,validation
+2022-12,3,6-month median,1145.0,1110.4761904761906,validation
+2022-12,3,Exp. smoothing (damped),1145.0,1212.6862098461927,validation
+2022-12,3,ARIMA,1145.0,1194.0000000000002,validation
+2022-12,3,Ridge regression,1145.0,1189.2106141751292,validation
+2022-12,3,Gradient boosting,1145.0,1128.971628307311,validation
+2022-12,3,Ensemble (ETS+Ridge+GBM),1145.0,1176.956150776211,validation
+2022-12,4,Naive,1145.0,1225.304347826087,validation
+2022-12,4,Seasonal naive,1145.0,868.5217391304348,validation
+2022-12,4,3-month average,1145.0,1086.0062111801242,validation
+2022-12,4,6-month median,1145.0,1084.9006211180124,validation
+2022-12,4,Exp. smoothing (damped),1145.0,1222.9197619461406,validation
+2022-12,4,ARIMA,1145.0,1225.3043478260875,validation
+2022-12,4,Ridge regression,1145.0,1144.8157597794527,validation
+2022-12,4,Gradient boosting,1145.0,1182.7256363444067,validation
+2022-12,4,Ensemble (ETS+Ridge+GBM),1145.0,1183.4870526900002,validation
+2022-12,5,Naive,1145.0,1093.7142857142858,validation
+2022-12,5,Seasonal naive,1145.0,868.5217391304348,validation
+2022-12,5,3-month average,1145.0,988.5714285714286,validation
+2022-12,5,6-month median,1145.0,1064.9434782608696,validation
+2022-12,5,Exp. smoothing (damped),1145.0,1082.1349731456087,validation
+2022-12,5,ARIMA,1145.0,1093.7142857142858,validation
+2022-12,5,Ridge regression,1145.0,1187.7463023626658,validation
+2022-12,5,Gradient boosting,1145.0,1020.7172709622228,validation
+2022-12,5,Ensemble (ETS+Ridge+GBM),1145.0,1096.8661821568323,validation
+2022-12,6,Naive,1145.0,939.0,validation
+2022-12,6,Seasonal naive,1145.0,868.5217391304348,validation
+2022-12,6,3-month average,1145.0,999.7460317460317,validation
+2022-12,6,6-month median,1145.0,1047.5666666666666,validation
+2022-12,6,Exp. smoothing (damped),1145.0,963.540828673716,validation
+2022-12,6,ARIMA,1145.0,938.9999999999998,validation
+2022-12,6,Ridge regression,1145.0,1272.1882752769202,validation
+2022-12,6,Gradient boosting,1145.0,920.4958882346386,validation
+2022-12,6,Ensemble (ETS+Ridge+GBM),1145.0,1052.0749973950917,validation
+2023-01,1,Naive,1183.0,1145.0,test
+2023-01,1,Seasonal naive,1183.0,1041.3333333333335,test
+2023-01,1,3-month average,1183.0,1154.3174603174602,test
+2023-01,1,6-month median,1183.0,1165.9761904761904,test
+2023-01,1,Exp. smoothing (damped),1183.0,1150.1571056743446,test
+2023-01,1,ARIMA,1183.0,1145.0000000000002,test
+2023-01,1,Ridge regression,1183.0,1151.7698648868304,test
+2023-01,1,Gradient boosting,1183.0,1152.0375446794033,test
+2023-01,1,Ensemble (ETS+Ridge+GBM),1183.0,1151.3215050801928,test
+2023-01,2,Naive,1183.0,1131.0,test
+2023-01,2,Seasonal naive,1183.0,1041.3333333333335,test
+2023-01,2,3-month average,1183.0,1170.6507936507935,test
+2023-01,2,6-month median,1183.0,1158.9761904761904,test
+2023-01,2,Exp. smoothing (damped),1183.0,1151.7190155014307,test
+2023-01,2,ARIMA,1183.0,1130.9999999999995,test
+2023-01,2,Ridge regression,1183.0,1145.0122586428517,test
+2023-01,2,Gradient boosting,1183.0,1144.9429698033634,test
+2023-01,2,Ensemble (ETS+Ridge+GBM),1183.0,1147.2247479825485,test
+2023-01,3,Naive,1183.0,1186.952380952381,test
+2023-01,3,Seasonal naive,1183.0,1041.3333333333335,test
+2023-01,3,3-month average,1183.0,1202.0855762594892,test
+2023-01,3,6-month median,1183.0,1140.3333333333333,test
+2023-01,3,Exp. smoothing (damped),1183.0,1205.8365496855847,test
+2023-01,3,ARIMA,1183.0,1186.9523809523807,test
+2023-01,3,Ridge regression,1183.0,1221.2941198352676,test
+2023-01,3,Gradient boosting,1183.0,1184.4533549924654,test
+2023-01,3,Ensemble (ETS+Ridge+GBM),1183.0,1203.8613415044392,test
+2023-01,4,Naive,1183.0,1194.0,test
+2023-01,4,Seasonal naive,1183.0,1041.3333333333335,test
+2023-01,4,3-month average,1183.0,1171.0062111801244,test
+2023-01,4,6-month median,1183.0,1110.4761904761906,test
+2023-01,4,Exp. smoothing (damped),1183.0,1218.242501488003,test
+2023-01,4,ARIMA,1183.0,1194.0000000000002,test
+2023-01,4,Ridge regression,1183.0,1224.9516057763499,test
+2023-01,4,Gradient boosting,1183.0,1152.389754352606,test
+2023-01,4,Ensemble (ETS+Ridge+GBM),1183.0,1198.5279538723196,test
+2023-01,5,Naive,1183.0,1225.304347826087,test
+2023-01,5,Seasonal naive,1183.0,1041.3333333333335,test
+2023-01,5,3-month average,1183.0,1086.0062111801242,test
+2023-01,5,6-month median,1183.0,1084.9006211180124,test
+2023-01,5,Exp. smoothing (damped),1183.0,1228.5838212290728,test
+2023-01,5,ARIMA,1183.0,1225.3043478260875,test
+2023-01,5,Ridge regression,1183.0,1246.376797494849,test
+2023-01,5,Gradient boosting,1183.0,1197.963570974638,test
+2023-01,5,Ensemble (ETS+Ridge+GBM),1183.0,1224.308063232853,test
+2023-01,6,Naive,1183.0,1093.7142857142858,test
+2023-01,6,Seasonal naive,1183.0,1041.3333333333335,test
+2023-01,6,3-month average,1183.0,988.5714285714286,test
+2023-01,6,6-month median,1183.0,1064.9434782608696,test
+2023-01,6,Exp. smoothing (damped),1183.0,1086.3045664624249,test
+2023-01,6,ARIMA,1183.0,1093.7142857142858,test
+2023-01,6,Ridge regression,1183.0,1293.838600270264,test
+2023-01,6,Gradient boosting,1183.0,1014.9832322222219,test
+2023-01,6,Ensemble (ETS+Ridge+GBM),1183.0,1131.7087996516368,test
+2023-02,1,Naive,1092.0,1075.4545454545455,test
+2023-02,1,Seasonal naive,1092.0,958.0,test
+2023-02,1,3-month average,1092.0,1048.181818181818,test
+2023-02,1,6-month median,1092.0,1077.2510822510822,test
+2023-02,1,Exp. smoothing (damped),1092.0,1074.935060832489,test
+2023-02,1,ARIMA,1092.0,1075.4545454545453,test
+2023-02,1,Ridge regression,1092.0,1092.9863665605633,test
+2023-02,1,Gradient boosting,1092.0,1076.0567183299602,test
+2023-02,1,Ensemble (ETS+Ridge+GBM),1092.0,1081.3260485743374,test
+2023-02,2,Naive,1092.0,1040.909090909091,test
+2023-02,2,Seasonal naive,1092.0,958.0,test
+2023-02,2,3-month average,1092.0,1049.3795093795093,test
+2023-02,2,6-month median,1092.0,1059.978354978355,test
+2023-02,2,Exp. smoothing (damped),1092.0,1049.9777140817619,test
+2023-02,2,ARIMA,1092.0,1040.909090909091,test
+2023-02,2,Ridge regression,1092.0,1062.773999074446,test
+2023-02,2,Gradient boosting,1092.0,1091.466854947994,test
+2023-02,2,Ensemble (ETS+Ridge+GBM),1092.0,1068.072856034734,test
+2023-02,3,Naive,1092.0,1028.181818181818,test
+2023-02,3,Seasonal naive,1092.0,958.0,test
+2023-02,3,3-month average,1092.0,1064.2279942279943,test
+2023-02,3,6-month median,1092.0,1053.6147186147186,test
+2023-02,3,Exp. smoothing (damped),1092.0,1051.4124640006612,test
+2023-02,3,ARIMA,1092.0,1028.1818181818178,test
+2023-02,3,Ridge regression,1092.0,1094.4914612314094,test
+2023-02,3,Gradient boosting,1092.0,1112.7695179589857,test
+2023-02,3,Ensemble (ETS+Ridge+GBM),1092.0,1086.2244810636855,test
+2023-02,4,Naive,1092.0,1079.047619047619,test
+2023-02,4,Seasonal naive,1092.0,958.0,test
+2023-02,4,3-month average,1092.0,1092.8050693268085,test
+2023-02,4,6-month median,1092.0,1036.6666666666665,test
+2023-02,4,Exp. smoothing (damped),1092.0,1101.123154260695,test
+2023-02,4,ARIMA,1092.0,1079.0476190476188,test
+2023-02,4,Ridge regression,1092.0,1166.2452134968248,test
+2023-02,4,Gradient boosting,1092.0,1111.9127257283074,test
+2023-02,4,Ensemble (ETS+Ridge+GBM),1092.0,1126.4270311619423,test
+2023-02,5,Naive,1092.0,1085.4545454545455,test
+2023-02,5,Seasonal naive,1092.0,958.0,test
+2023-02,5,3-month average,1092.0,1064.5511010728403,test
+2023-02,5,6-month median,1092.0,1009.5238095238096,test
+2023-02,5,Exp. smoothing (damped),1092.0,1112.5191015196403,test
+2023-02,5,ARIMA,1092.0,1085.4545454545455,test
+2023-02,5,Ridge regression,1092.0,1184.745139746215,test
+2023-02,5,Gradient boosting,1092.0,1048.2913643918464,test
+2023-02,5,Ensemble (ETS+Ridge+GBM),1092.0,1115.1852018859006,test
+2023-02,6,Naive,1092.0,1113.913043478261,test
+2023-02,6,Seasonal naive,1092.0,958.0,test
+2023-02,6,3-month average,1092.0,987.278373800113,test
+2023-02,6,6-month median,1092.0,986.2732919254659,test
+2023-02,6,Exp. smoothing (damped),1092.0,1122.017782014173,test
+2023-02,6,ARIMA,1092.0,1113.9130434782612,test
+2023-02,6,Ridge regression,1092.0,1181.9327084965248,test
+2023-02,6,Gradient boosting,1092.0,1048.8953771158551,test
+2023-02,6,Ensemble (ETS+Ridge+GBM),1092.0,1117.615289208851,test
+2023-03,1,Naive,1229.0,1255.8,test
+2023-03,1,Seasonal naive,1229.0,1125.0,test
+2023-03,1,3-month average,1229.0,1229.8727272727272,test
+2023-03,1,6-month median,1229.0,1238.8387445887445,test
+2023-03,1,Exp. smoothing (damped),1229.0,1257.920364355258,test
+2023-03,1,ARIMA,1229.0,1255.7999999999995,test
+2023-03,1,Ridge regression,1229.0,1288.932669565659,test
+2023-03,1,Gradient boosting,1229.0,1242.5087629114184,test
+2023-03,1,Ensemble (ETS+Ridge+GBM),1229.0,1263.1205989441116,test
+2023-03,2,Naive,1229.0,1236.7727272727273,test
+2023-03,2,Seasonal naive,1229.0,1125.0,test
+2023-03,2,3-month average,1229.0,1205.4090909090908,test
+2023-03,2,6-month median,1229.0,1238.8387445887445,test
+2023-03,2,Exp. smoothing (damped),1229.0,1241.479380353704,test
+2023-03,2,ARIMA,1229.0,1236.772727272727,test
+2023-03,2,Ridge regression,1229.0,1279.1869721903238,test
+2023-03,2,Gradient boosting,1229.0,1278.2140642373743,test
+2023-03,2,Ensemble (ETS+Ridge+GBM),1229.0,1266.2934722604675,test
+2023-03,3,Naive,1229.0,1197.0454545454545,test
+2023-03,3,Seasonal naive,1229.0,1125.0,test
+2023-03,3,3-month average,1229.0,1206.7864357864357,test
+2023-03,3,6-month median,1229.0,1218.9751082251082,test
+2023-03,3,Exp. smoothing (damped),1229.0,1212.4865812885646,test
+2023-03,3,ARIMA,1229.0,1197.0454545454547,test
+2023-03,3,Ridge regression,1229.0,1273.7308231341635,test
+2023-03,3,Gradient boosting,1229.0,1257.284904124549,test
+2023-03,3,Ensemble (ETS+Ridge+GBM),1229.0,1247.8341028490925,test
+2023-03,4,Naive,1229.0,1182.4090909090908,test
+2023-03,4,Seasonal naive,1229.0,1125.0,test
+2023-03,4,3-month average,1229.0,1223.8621933621932,test
+2023-03,4,6-month median,1229.0,1211.6569264069262,test
+2023-03,4,Exp. smoothing (damped),1229.0,1214.1535150903244,test
+2023-03,4,ARIMA,1229.0,1182.4090909090905,test
+2023-03,4,Ridge regression,1229.0,1332.971434121005,test
+2023-03,4,Gradient boosting,1229.0,1229.0567861091336,test
+2023-03,4,Ensemble (ETS+Ridge+GBM),1229.0,1258.7272451068209,test
+2023-03,5,Naive,1229.0,1240.904761904762,test
+2023-03,5,Seasonal naive,1229.0,1125.0,test
+2023-03,5,3-month average,1229.0,1256.7258297258297,test
+2023-03,5,6-month median,1229.0,1192.1666666666665,test
+2023-03,5,Exp. smoothing (damped),1229.0,1271.907731228299,test
+2023-03,5,ARIMA,1229.0,1240.9047619047617,test
+2023-03,5,Ridge regression,1229.0,1351.2892157185513,test
+2023-03,5,Gradient boosting,1229.0,1257.9328249504906,test
+2023-03,5,Ensemble (ETS+Ridge+GBM),1229.0,1293.7099239657803,test
+2023-03,6,Naive,1229.0,1248.2727272727273,test
+2023-03,6,Seasonal naive,1229.0,1125.0,test
+2023-03,6,3-month average,1229.0,1224.2337662337663,test
+2023-03,6,6-month median,1229.0,1160.9523809523812,test
+2023-03,6,Exp. smoothing (damped),1229.0,1285.147873818119,test
+2023-03,6,ARIMA,1229.0,1248.2727272727275,test
+2023-03,6,Ridge regression,1229.0,1377.1106927416083,test
+2023-03,6,Gradient boosting,1229.0,1238.1522578244594,test
+2023-03,6,Ensemble (ETS+Ridge+GBM),1229.0,1300.1369414613955,test
+2023-04,1,Naive,1058.0,1068.695652173913,test
+2023-04,1,Seasonal naive,1058.0,1024.7619047619048,test
+2023-04,1,3-month average,1058.0,1078.7167325428195,test
+2023-04,1,6-month median,1058.0,1072.0750988142292,test
+2023-04,1,Exp. smoothing (damped),1058.0,1077.5667508588178,test
+2023-04,1,ARIMA,1058.0,1068.6956521739123,test
+2023-04,1,Ridge regression,1058.0,1115.3117131442154,test
+2023-04,1,Gradient boosting,1058.0,1081.0250051886962,test
+2023-04,1,Ensemble (ETS+Ridge+GBM),1058.0,1091.3011563972432,test
+2023-04,2,Naive,1058.0,1092.0,test
+2023-04,2,Seasonal naive,1058.0,1024.7619047619048,test
+2023-04,2,3-month average,1058.0,1069.4545454545455,test
+2023-04,2,6-month median,1058.0,1077.2510822510822,test
+2023-04,2,Exp. smoothing (damped),1058.0,1098.5749387812834,test
+2023-04,2,ARIMA,1058.0,1091.9999999999995,test
+2023-04,2,Ridge regression,1058.0,1153.5482215466063,test
+2023-04,2,Gradient boosting,1058.0,1102.0791264395134,test
+2023-04,2,Ensemble (ETS+Ridge+GBM),1058.0,1118.0674289224678,test
+2023-04,3,Naive,1058.0,1075.4545454545455,test
+2023-04,3,Seasonal naive,1058.0,1024.7619047619048,test
+2023-04,3,3-month average,1058.0,1048.181818181818,test
+2023-04,3,6-month median,1058.0,1077.2510822510822,test
+2023-04,3,Exp. smoothing (damped),1058.0,1084.1364525635336,test
+2023-04,3,ARIMA,1058.0,1075.4545454545453,test
+2023-04,3,Ridge regression,1058.0,1133.1486638561298,test
+2023-04,3,Gradient boosting,1058.0,1101.0861180582535,test
+2023-04,3,Ensemble (ETS+Ridge+GBM),1058.0,1106.1237448259724,test
+2023-04,4,Naive,1058.0,1040.909090909091,test
+2023-04,4,Seasonal naive,1058.0,1024.7619047619048,test
+2023-04,4,3-month average,1058.0,1049.3795093795093,test
+2023-04,4,6-month median,1058.0,1059.978354978355,test
+2023-04,4,Exp. smoothing (damped),1058.0,1058.6728089848962,test
+2023-04,4,ARIMA,1058.0,1040.909090909091,test
+2023-04,4,Ridge regression,1058.0,1155.7778244880597,test
+2023-04,4,Gradient boosting,1058.0,1105.0668446102131,test
+2023-04,4,Ensemble (ETS+Ridge+GBM),1058.0,1106.505826027723,test
+2023-04,5,Naive,1058.0,1028.181818181818,test
+2023-04,5,Seasonal naive,1058.0,1024.7619047619048,test
+2023-04,5,3-month average,1058.0,1064.2279942279943,test
+2023-04,5,6-month median,1058.0,1053.6147186147186,test
+2023-04,5,Exp. smoothing (damped),1058.0,1060.1370005847311,test
+2023-04,5,ARIMA,1058.0,1028.1818181818178,test
+2023-04,5,Ridge regression,1058.0,1200.715565793514,test
+2023-04,5,Gradient boosting,1058.0,1111.48088414598,test
+2023-04,5,Ensemble (ETS+Ridge+GBM),1058.0,1124.1111501747419,test
+2023-04,6,Naive,1058.0,1079.047619047619,test
+2023-04,6,Seasonal naive,1058.0,1024.7619047619048,test
+2023-04,6,3-month average,1058.0,1092.8050693268085,test
+2023-04,6,6-month median,1058.0,1036.6666666666665,test
+2023-04,6,Exp. smoothing (damped),1058.0,1110.8658735110057,test
+2023-04,6,ARIMA,1058.0,1079.0476190476188,test
+2023-04,6,Ridge regression,1058.0,1226.5612382670047,test
+2023-04,6,Gradient boosting,1058.0,1092.726319786066,test
+2023-04,6,Ensemble (ETS+Ridge+GBM),1058.0,1143.3844771880256,test
+2023-05,1,Naive,1085.0,1216.7,test
+2023-05,1,Seasonal naive,1085.0,975.4090909090909,test
+2023-05,1,3-month average,1085.0,1233.8333333333333,test
+2023-05,1,6-month median,1085.0,1222.85,test
+2023-05,1,Exp. smoothing (damped),1085.0,1225.5509839995375,test
+2023-05,1,ARIMA,1085.0,1216.6999999999996,test
+2023-05,1,Ridge regression,1085.0,1285.405069663558,test
+2023-05,1,Gradient boosting,1085.0,1183.1154528598693,test
+2023-05,1,Ensemble (ETS+Ridge+GBM),1085.0,1231.3571688409882,test
+2023-05,2,Naive,1085.0,1229.0,test
+2023-05,2,Seasonal naive,1085.0,975.4090909090909,test
+2023-05,2,3-month average,1085.0,1240.5242424242426,test
+2023-05,2,6-month median,1085.0,1232.8863636363635,test
+2023-05,2,Exp. smoothing (damped),1085.0,1244.3800754573506,test
+2023-05,2,ARIMA,1085.0,1228.9999999999993,test
+2023-05,2,Ridge regression,1085.0,1342.2201346582467,test
+2023-05,2,Gradient boosting,1085.0,1182.2358521199553,test
+2023-05,2,Ensemble (ETS+Ridge+GBM),1085.0,1256.2786874118508,test
+2023-05,3,Naive,1085.0,1255.8,test
+2023-05,3,Seasonal naive,1085.0,975.4090909090909,test
+2023-05,3,3-month average,1085.0,1229.8727272727272,test
+2023-05,3,6-month median,1085.0,1238.8387445887445,test
+2023-05,3,Exp. smoothing (damped),1085.0,1268.774790765478,test
+2023-05,3,ARIMA,1085.0,1255.7999999999995,test
+2023-05,3,Ridge regression,1085.0,1354.6352444321383,test
+2023-05,3,Gradient boosting,1085.0,1183.6080322058767,test
+2023-05,3,Ensemble (ETS+Ridge+GBM),1085.0,1269.006022467831,test
+2023-05,4,Naive,1085.0,1236.7727272727273,test
+2023-05,4,Seasonal naive,1085.0,975.4090909090909,test
+2023-05,4,3-month average,1085.0,1205.4090909090908,test
+2023-05,4,6-month median,1085.0,1238.8387445887445,test
+2023-05,4,Exp. smoothing (damped),1085.0,1252.0080728419518,test
+2023-05,4,ARIMA,1085.0,1236.772727272727,test
+2023-05,4,Ridge regression,1085.0,1337.8654634043382,test
+2023-05,4,Gradient boosting,1085.0,1245.1538488958745,test
+2023-05,4,Ensemble (ETS+Ridge+GBM),1085.0,1278.342461714055,test
+2023-05,5,Naive,1085.0,1197.0454545454545,test
+2023-05,5,Seasonal naive,1085.0,975.4090909090909,test
+2023-05,5,3-month average,1085.0,1206.7864357864357,test
+2023-05,5,6-month median,1085.0,1218.9751082251082,test
+2023-05,5,Exp. smoothing (damped),1085.0,1222.4359436314762,test
+2023-05,5,ARIMA,1085.0,1197.0454545454547,test
+2023-05,5,Ridge regression,1085.0,1366.3668777901837,test
+2023-05,5,Gradient boosting,1085.0,1204.4180170178524,test
+2023-05,5,Ensemble (ETS+Ridge+GBM),1085.0,1264.4069461465042,test
+2023-05,6,Naive,1085.0,1182.4090909090908,test
+2023-05,6,Seasonal naive,1085.0,975.4090909090909,test
+2023-05,6,3-month average,1085.0,1223.8621933621932,test
+2023-05,6,6-month median,1085.0,1211.6569264069262,test
+2023-05,6,Exp. smoothing (damped),1085.0,1224.1365660766462,test
+2023-05,6,ARIMA,1085.0,1182.4090909090905,test
+2023-05,6,Ridge regression,1085.0,1423.1098678558317,test
+2023-05,6,Gradient boosting,1085.0,1199.9782458227462,test
+2023-05,6,Ensemble (ETS+Ridge+GBM),1085.0,1282.4082265850748,test
+2023-06,1,Naive,1018.0,1037.8260869565217,test
+2023-06,1,Seasonal naive,1018.0,939.0,test
+2023-06,1,3-month average,1018.0,1125.7304347826087,test
+2023-06,1,6-month median,1018.0,1169.682608695652,test
+2023-06,1,Exp. smoothing (damped),1018.0,1063.1359322324674,test
+2023-06,1,ARIMA,1018.0,1037.8260869565215,test
+2023-06,1,Ridge regression,1018.0,1124.6811034905518,test
+2023-06,1,Gradient boosting,1018.0,1075.998082800336,test
+2023-06,1,Ensemble (ETS+Ridge+GBM),1018.0,1087.9383728411185,test
+2023-06,2,Naive,1018.0,1163.8,test
+2023-06,2,Seasonal naive,1018.0,939.0,test
+2023-06,2,3-month average,1018.0,1180.1884057971015,test
+2023-06,2,6-month median,1018.0,1169.682608695652,test
+2023-06,2,Exp. smoothing (damped),1018.0,1177.0218684753622,test
+2023-06,2,ARIMA,1018.0,1163.7999999999997,test
+2023-06,2,Ridge regression,1018.0,1295.8977973817177,test
+2023-06,2,Gradient boosting,1018.0,1112.2370453436706,test
+2023-06,2,Ensemble (ETS+Ridge+GBM),1018.0,1195.0522370669169,test
+2023-06,3,Naive,1018.0,1175.5652173913043,test
+2023-06,3,Seasonal naive,1018.0,939.0,test
+2023-06,3,3-month average,1018.0,1186.5884057971016,test
+2023-06,3,6-month median,1018.0,1179.2826086956522,test
+2023-06,3,Exp. smoothing (damped),1018.0,1195.204996046899,test
+2023-06,3,ARIMA,1018.0,1175.5652173913036,test
+2023-06,3,Ridge regression,1018.0,1332.28249897538,test
+2023-06,3,Gradient boosting,1018.0,1137.2753324008977,test
+2023-06,3,Ensemble (ETS+Ridge+GBM),1018.0,1221.587609141059,test
+2023-06,4,Naive,1018.0,1201.2,test
+2023-06,4,Seasonal naive,1018.0,939.0,test
+2023-06,4,3-month average,1018.0,1176.3999999999999,test
+2023-06,4,6-month median,1018.0,1184.9761904761904,test
+2023-06,4,Exp. smoothing (damped),1018.0,1218.763015012443,test
+2023-06,4,ARIMA,1018.0,1201.1999999999996,test
+2023-06,4,Ridge regression,1018.0,1327.3636967476027,test
+2023-06,4,Gradient boosting,1018.0,1166.7365296519117,test
+2023-06,4,Ensemble (ETS+Ridge+GBM),1018.0,1237.6210804706525,test
+2023-06,5,Naive,1018.0,1183.0,test
+2023-06,5,Seasonal naive,1018.0,939.0,test
+2023-06,5,3-month average,1018.0,1153.0,test
+2023-06,5,6-month median,1018.0,1184.9761904761904,test
+2023-06,5,Exp. smoothing (damped),1018.0,1202.5706664532672,test
+2023-06,5,ARIMA,1018.0,1182.9999999999998,test
+2023-06,5,Ridge regression,1018.0,1332.6574656215614,test
+2023-06,5,Gradient boosting,1018.0,1099.2357210343978,test
+2023-06,5,Ensemble (ETS+Ridge+GBM),1018.0,1211.487951036409,test
+2023-06,6,Naive,1018.0,1145.0,test
+2023-06,6,Seasonal naive,1018.0,939.0,test
+2023-06,6,3-month average,1018.0,1154.3174603174602,test
+2023-06,6,6-month median,1018.0,1165.9761904761904,test
+2023-06,6,Exp. smoothing (damped),1018.0,1174.009287348009,test
+2023-06,6,ARIMA,1018.0,1145.0000000000002,test
+2023-06,6,Ridge regression,1018.0,1367.8694383419856,test
+2023-06,6,Gradient boosting,1018.0,1115.315572769723,test
+2023-06,6,Ensemble (ETS+Ridge+GBM),1018.0,1219.0647661532391,test
+2023-07,1,Naive,1749.0,971.7272727272727,test
+2023-07,1,Seasonal naive,1749.0,1044.0,test
+2023-07,1,3-month average,1749.0,1024.4264822134387,test
+2023-07,1,6-month median,1749.0,1116.5152173913043,test
+2023-07,1,Exp. smoothing (damped),1749.0,980.7299776009851,test
+2023-07,1,ARIMA,1749.0,971.7272727272726,test
+2023-07,1,Ridge regression,1749.0,1050.7385220112794,test
+2023-07,1,Gradient boosting,1749.0,1014.2900560490611,test
+2023-07,1,Ensemble (ETS+Ridge+GBM),1749.0,1015.2528518871086,test
+2023-07,2,Naive,1749.0,990.6521739130434,test
+2023-07,2,Seasonal naive,1749.0,1044.0,test
+2023-07,2,3-month average,1749.0,1074.5608695652174,test
+2023-07,2,6-month median,1749.0,1116.5152173913043,test
+2023-07,2,Exp. smoothing (damped),1749.0,1018.3060979352213,test
+2023-07,2,ARIMA,1749.0,990.6521739130433,test
+2023-07,2,Ridge regression,1749.0,1170.3871794871698,test
+2023-07,2,Gradient boosting,1749.0,1048.01806590998,test
+2023-07,2,Ensemble (ETS+Ridge+GBM),1749.0,1078.9037811107903,test
+2023-07,3,Naive,1749.0,1110.8999999999999,test
+2023-07,3,Seasonal naive,1749.0,1044.0,test
+2023-07,3,3-month average,1749.0,1126.5434782608695,test
+2023-07,3,6-month median,1749.0,1116.5152173913043,test
+2023-07,3,Exp. smoothing (damped),1749.0,1128.0377179843567,test
+2023-07,3,ARIMA,1749.0,1110.8999999999996,test
+2023-07,3,Ridge regression,1749.0,1297.4604123129648,test
+2023-07,3,Gradient boosting,1749.0,1088.8034690841555,test
+2023-07,3,Ensemble (ETS+Ridge+GBM),1749.0,1171.4338664604923,test
+2023-07,4,Naive,1749.0,1122.1304347826085,test
+2023-07,4,Seasonal naive,1749.0,1044.0,test
+2023-07,4,3-month average,1749.0,1132.6525691699605,test
+2023-07,4,6-month median,1749.0,1125.6788537549407,test
+2023-07,4,Exp. smoothing (damped),1749.0,1145.5583581598053,test
+2023-07,4,ARIMA,1749.0,1122.130434782608,test
+2023-07,4,Ridge regression,1749.0,1309.8426558493281,test
+2023-07,4,Gradient boosting,1749.0,1082.9489053644515,test
+2023-07,4,Ensemble (ETS+Ridge+GBM),1749.0,1179.4499731245282,test
+2023-07,5,Naive,1749.0,1146.6000000000001,test
+2023-07,5,Seasonal naive,1749.0,1044.0,test
+2023-07,5,3-month average,1749.0,1122.9272727272726,test
+2023-07,5,6-month median,1749.0,1131.1136363636363,test
+2023-07,5,Exp. smoothing (damped),1749.0,1168.258253465973,test
+2023-07,5,ARIMA,1749.0,1146.5999999999997,test
+2023-07,5,Ridge regression,1749.0,1305.435132531301,test
+2023-07,5,Gradient boosting,1749.0,1081.532118496266,test
+2023-07,5,Ensemble (ETS+Ridge+GBM),1749.0,1185.0751681645133,test
+2023-07,6,Naive,1749.0,1129.2272727272727,test
+2023-07,6,Seasonal naive,1749.0,1044.0,test
+2023-07,6,3-month average,1749.0,1100.590909090909,test
+2023-07,6,6-month median,1749.0,1131.1136363636363,test
+2023-07,6,Exp. smoothing (damped),1749.0,1152.6550684380527,test
+2023-07,6,ARIMA,1749.0,1129.2272727272725,test
+2023-07,6,Ridge regression,1749.0,1309.0941840539074,test
+2023-07,6,Gradient boosting,1749.0,1085.6977805620459,test
+2023-07,6,Ensemble (ETS+Ridge+GBM),1749.0,1182.4823443513353,test
